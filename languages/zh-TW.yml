@@ -1,6 +1,6 @@
 footer:
   framework: 框架
-  theme: 主題
+  theme: 佈景主題
 
 copy:
   success: 複製成功
@@ -13,16 +13,16 @@ page:
   category: 分類
   archives: 歸檔
 
-card_post_count: 條評論
+card_post_count: 則評論
 
 sticky: 置頂
-no_title: 無題
+no_title: 無標題
 
 post:
-  created: 發表於
+  created: 發佈於
   updated: 更新於
-  wordcount: 字數總計
-  min2read: 閱讀時長
+  wordcount: 總字數
+  min2read: 閱讀時間
   min2read_unit: 分鐘
   page_pv: 閱讀量
   comments: 評論數
@@ -31,8 +31,8 @@ post:
     link: 文章連結
     copyright_notice: 版權聲明
     copyright_content: '本部落格所有文章除特別聲明外，均採用
-      <a href="%s" target="_blank">%s</a> 許可協議。轉載請註明來自 <a href="%s" target="_blank">%s</a>！'
-  recommend: 相關推薦
+      <a href="%s" target="_blank">%s</a> 授權條款。轉載請註明來自 <a href="%s" target="_blank">%s</a>！'
+  recommend: 喜歡這篇文章的人也看了
   edit:
     github: 在 GitHub 上編輯
     yuque: 在 語雀 上編輯
@@ -41,9 +41,9 @@ search:
   title: 搜尋
   load_data: 資料庫載入中
   algolia_search:
-    input_placeholder: 輸入關鍵字後按下回車查找
+    input_placeholder: 輸入關鍵字後按下 Enter 搜尋
     hits_empty: "找不到您查詢的內容：${query}"
-    hits_stats: "找到 ${hits} 條結果，用時 ${time} 毫秒"
+    hits_stats: "找到 ${hits} 筆結果，耗時 ${time} 毫秒"
 
   local_search:
     input_placeholder: 搜尋文章
@@ -63,23 +63,23 @@ aside:
   card_categories: 分類
   card_tags: 標籤
   card_archives: 歸檔
-  card_recent_post: 最近发布
+  card_recent_post: 最近發佈
   card_webinfo:
     headline: 網站資訊
-    article_name: 文章數目
+    article_name: 文章總數
     runtime:
-      name: 已執行時間
+      name: 建站天數
       unit: 天
     last_push_date:
       name: 最後更新時間
-    site_wordcount: 本站總字數
-    site_uv_name: 本站訪客數
-    site_pv_name: 本站總訪問量
-  more_button: 檢視更多
+    site_wordcount: 全站字數
+    site_uv_name: 全站訪客數
+    site_pv_name: 全站總瀏覽量
+  more_button: 查看更多
   card_newest_comments:
     headline: 最新評論
-    loading_text: 正在載入中...
-    error: 無法獲取評論，請確認相關配置是否正確
+    loading_text: 載入中...
+    error: 無法取得評論，請確認相關設定是否正確
     zero: 沒有評論
     image: 圖片
     link: 連結
@@ -95,36 +95,36 @@ date_suffix:
   day: 天前
   month: 個月前
 
-donate: 打賞
+donate: 不給糖就搗蛋
 share: 分享
 
 rightside:
   readmode_title: 閱讀模式
   translate_title: 簡繁轉換
-  night_mode_title: 淺色和深色模式轉換
+  night_mode_title: 明亮與深色模式切換
   back_to_top: 回到頂部
   toc: 目錄
   scroll_to_comment: 直達評論
   setting: 設定
-  aside: 單欄和雙欄切換
+  aside: 單欄與雙欄切換
   chat: 聊天
 
 copy_copyright:
   author: 作者
   link: 連結
   source: 來源
-  info: 著作權歸作者所有。商業轉載請聯絡作者獲得授權，非商業轉載請註明出處。
-  copySuccess: 複製成功，複製和轉載請標注本文地址
+  info: 版權歸作者所有。商業轉載請聯絡作者取得授權，非商業轉載請註明出處。
+  copySuccess: 複製成功，複製與轉載請標註本文地址
 
 Snackbar:
   chs_to_cht: 你已切換為繁體
   cht_to_chs: 你已切換為簡體
   day_to_night: 你已切換為深色模式
-  night_to_day: 你已切換為淺色模式
+  night_to_day: 你已切換為明亮模式
   copy_equipment_name: 已複製裝備名稱
 
 loading: 載入中...
 
 load_more: 載入更多
 
-error404: 頁面沒有找到
+error404: 頁面未找到
